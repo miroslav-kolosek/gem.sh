@@ -112,6 +112,8 @@ gem "heroicon", "~> 1.0"
 # Tool to interactively execute Ruby expressions read from the standard input.
 gem "irb", "~> 1.11"
 
+gem 'simplecov', require: false, group: :test
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: [:mri, :mswin, :mswin64, :mingw, :x64_mingw]
